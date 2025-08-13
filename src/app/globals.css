@@ -10,7 +10,7 @@
   --font-inherit: inherit;
   --font-tufuli-arabic: var(--font-tufuli-arabic), ui-sans-serif, system-ui,
     sans-serif;
-  --font-noto-sans-arabic: var(--font-noto-sans-arabic), ui-sans-serif,
+  --font-din-arabic: var(--font-din-arabic), ui-sans-serif,
     system-ui, sans-serif;
   --font-mono: monospace;
   --breakpoint-xs: 480px;
