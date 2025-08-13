@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { HiMail } from "react-icons/hi";
-import { FaInstagram, FaPhone } from "react-icons/fa";
+import { FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-              كتب , أقلام , وأفكار لا تنتهي '''
+              كتب , أقلام , وأفكار لا تنتهي ،،،
             </p>
 
             {/* Additional Text */}
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           {/* Contact Information */}
-          <div className="grid gap-6">
+          <div className="grid gap-4">
             {/* Email */}
             <div className="flex items-center gap-9">
               <HiMail className="size-5 text-white" />
@@ -64,7 +64,7 @@ export default function Home() {
 
             {/* Phone */}
             <div className="flex items-center gap-9">
-              <FaPhone className="size-5 text-white" />
+              <FaWhatsapp className="size-5 text-white" />
               <span>0558560997</span>
             </div>
           </div>
