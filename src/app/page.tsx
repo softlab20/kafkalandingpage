@@ -24,7 +24,7 @@ export default function Home() {
 
           {/* Main Content */}
           <div
-            className="flex flex-col items-center space-y-7 gap-9 text-center"
+            className="flex flex-col items-center space-y-5 sm:space-y-7 gap-5 sm:gap-9 text-center"
             dir="rtl"
           >
             {/* Main Heading */}
