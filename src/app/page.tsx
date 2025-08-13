@@ -5,7 +5,7 @@ import { FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
 export default function Home() {
   return (
     <section className="bg-transparent">
-      <div className="relative h-screen w-full overflow-hidden bg-[url('/bg-image.jpg')] bg-no-repeat bg-center bg-cover">
+      <div className="relative h-screen w-full overflow-hidden bg-[url('/bg-image3.jpg')] bg-no-repeat bg-center bg-cover">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/70"></div>
