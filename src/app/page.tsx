@@ -1,16 +1,10 @@
-import Image from "next/image";
 import { HiMail } from "react-icons/hi";
-import { FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
     <section className="bg-transparent">
-      <div className="relative h-screen w-full overflow-hidden bg-[url('/bg-image3.jpg')] bg-no-repeat bg-center bg-cover">
-        {/* Background Image */}
-        {/* <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-black/70"></div>
-        </div> */}
-
+      <div className="relative h-screen w-full overflow-hidden bg-[url('/bg-image.png')] bg-no-repeat bg-center bg-cover">
         {/* Content */}
         <div className="relative z-10 flex h-full flex-col items-center max-sm:space-y-15 justify-center sm:justify-between px-6 py-8 text-white">
           {/* Logo Section */}
@@ -28,7 +22,7 @@ export default function Home() {
             dir="rtl"
           >
             {/* Main Heading */}
-            <h1 className="text-3xl md:text-4xl font-bold font-tufuli-arabic text-[#fdfdfd]/80" >
+            <h1 className="text-3xl md:text-4xl font-bold font-tufuli-arabic text-[#fdfdfd]/80">
               فوضي منظمة !
             </h1>
 
