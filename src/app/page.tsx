@@ -12,9 +12,9 @@ export default function Home() {
         </div> */}
 
         {/* Content */}
-        <div className="relative z-10 flex h-full flex-col items-center max-sm:space-y-20 justify-center sm:justify-between px-6 py-8 text-white">
+        <div className="relative z-10 flex h-full flex-col items-center max-sm:space-y-15 justify-center sm:justify-between px-6 py-8 text-white">
           {/* Logo Section */}
-          <div className="flex flex-col items-center space-y-4 pt-8">
+          <div className="flex flex-col items-center pt-8">
             <img
               src="/logo.png"
               alt="Logo"
@@ -39,7 +39,7 @@ export default function Home() {
 
             {/* Additional Text */}
             <p className="text-lg md:text-xl lg:text-2xl text-[#fdfdfd]/80">
-              ما بقي ولا شي , لا تروحو بعييد
+              ما بقي شي , لا تروحو بعييد
             </p>
 
             {/* Studio Button */}
