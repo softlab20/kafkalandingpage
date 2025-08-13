@@ -28,22 +28,22 @@ export default function Home() {
             dir="rtl"
           >
             {/* Main Heading */}
-            <h1 className="text-3xl md:text-4xl font-bold font-tufuli-arabic" >
+            <h1 className="text-3xl md:text-4xl font-bold font-tufuli-arabic text-[#fdfdfd]" >
               فوضي منظمة !
             </h1>
 
             {/* Subheading */}
-            <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#fdfdfd]">
               كتب , أقلام , وأفكار لا تنتهي ،،،
             </p>
 
             {/* Additional Text */}
-            <p className="text-lg md:text-xl lg:text-2xl">
+            <p className="text-lg md:text-xl lg:text-2xl text-[#fdfdfd]">
               ما بقي ولا شي , لا تروحو بعييد
             </p>
 
             {/* Studio Button */}
-            <h2 className="text-lg md:text-xl lg:text-2xl">
+            <h2 className="text-lg md:text-xl lg:text-2xl text-[#fdfdfd]">
               تابعوووونا,,
             </h2>
           </div>
@@ -52,19 +52,19 @@ export default function Home() {
           <div className="grid gap-4">
             {/* Email */}
             <div className="flex items-center gap-8">
-              <HiMail className="size-5 text-white" />
+              <HiMail className="size-5 text-[#fdfdfd]" />
               <span>hi@kafkabookstore.com</span>
             </div>
 
             {/* Instagram */}
             <div className="flex items-center gap-8">
-              <FaInstagram className="size-5 text-white" />
+              <FaInstagram className="size-5 text-[#fdfdfd]" />
               <span>@kafkabooks</span>
             </div>
 
             {/* Phone */}
             <div className="flex items-center gap-8">
-              <FaWhatsapp className="size-5 text-white" />
+              <FaWhatsapp className="size-5 text-[#fdfdfd]" />
               <span>0558560997</span>
             </div>
           </div>
