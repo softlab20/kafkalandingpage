@@ -28,22 +28,22 @@ export default function Home() {
             dir="rtl"
           >
             {/* Main Heading */}
-            <h1 className="text-xl sm:text-3xl md:text-4xl font-bold font-tufuli-arabic" >
+            <h1 className="text-3xl md:text-4xl font-bold font-tufuli-arabic" >
               فوضي منظمة !
             </h1>
 
             {/* Subheading */}
-            <p className="text-xl sm:text-3xl md:text-4xl font-semibold">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">
               كتب , أقلام , وأفكار لا تنتهي '''
             </p>
 
             {/* Additional Text */}
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+            <p className="text-lg md:text-xl lg:text-2xl">
               ما بقي ولا شي , لا تروحو بعييد
             </p>
 
             {/* Studio Button */}
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl">
+            <h2 className="text-lg md:text-xl lg:text-2xl">
               تابعوووونا,,
             </h2>
           </div>
