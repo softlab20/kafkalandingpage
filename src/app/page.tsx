@@ -51,19 +51,19 @@ export default function Home() {
           {/* Contact Information */}
           <div className="grid gap-4">
             {/* Email */}
-            <div className="flex items-center gap-9">
+            <div className="flex items-center gap-8">
               <HiMail className="size-5 text-white" />
               <span>hi@kafkabookstore.com</span>
             </div>
 
             {/* Instagram */}
-            <div className="flex items-center gap-9">
+            <div className="flex items-center gap-8">
               <FaInstagram className="size-5 text-white" />
-              <span>@kafkabookstores</span>
+              <span>@kafkabooks</span>
             </div>
 
             {/* Phone */}
-            <div className="flex items-center gap-9">
+            <div className="flex items-center gap-8">
               <FaWhatsapp className="size-5 text-white" />
               <span>0558560997</span>
             </div>
