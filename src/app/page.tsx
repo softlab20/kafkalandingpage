@@ -18,7 +18,7 @@ export default function Home() {
             <img
               src="/logo.png"
               alt="Logo"
-              className="w-full max-w-64 object-contain"
+              className="w-full max-w-34 sm:max-w-64 object-contain"
             />
           </div>
 
